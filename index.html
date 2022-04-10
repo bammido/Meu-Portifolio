@@ -4,10 +4,196 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" src="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
+
+    <main>
+        <section id="apresentacao">
+
+
+            <div id="div-apresentacao">
+                <div id="eu-sou">
+                    <div id="ola">
+                        <h6>Olá,</h6>
+                        <h1>Bryan Fernandes aqui</h1>
+                        <p>Full Stack developer</p>
+                    </div>
+                    
+                    <div id="botoes-apresentacao">
+                        <button>
+                            <a href="./downloads/meu cv.pdf" download="">Download do meu cv</a>
+                        </button>
+            
+                        <button>
+                            <a href="#entre-em-contato">
+                                Entre em contato
+                            </a>
+                        </button>
+                    </div>
+                </div>
     
+                
+                <div id="descricao">
+    
+                    <p>Sou estudante de ciência da computação, altamente entusiasmado com as áreas de TI especialmente em desenvolvimento web e infraestrutura de redes</p>
+                    <p class="muda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta laudantium placeat porro minima aspernatur molestiae, similique, nihil hic, omnis doloremque optio unde a fugiat magnam est? Beatae obcaecati dolorum provident?</p>
+                    
+                </div>
+            </div>
+            
+            <div id="redes-sociais">
+                <div id="instituicoes">
+
+                    <h6>Instituições</h6>
+    
+                    <div>
+                        <div>
+                            <img src="./imagens/logos/estacio.png" alt=""> <p>Ciência da computação</p>
+                        </div>
+                        <div>
+                            <img src="./imagens/logos/labenu.gif" alt=""> <p>Desenvolvimento Full Stack</p>
+                        </div>
+                    </div>
+
+                </div>  
+
+                <div class="redes-sociais">
+                    <div >
+                        <a href="https://github.com/bammido" target="_blank">
+                            <img src="./imagens/icones/github.png" alt="icone github">
+                        </a>
+                    </div>
+    
+                    <div>
+                        <a href="https://www.linkedin.com/in/bryan-fernandes-de-oliveira-8085671a8/" target="_blank">
+                            <img src="./imagens/icones/linkedin.png" alt="icone linkedin">
+                        </a>
+                    </div>
+    
+                    <div>
+                        <a href="https://api.whatsapp.com/send?phone=5584996495206&text=Ol%C3%A1%20Bryan..." target="_blank">
+                            <img src="./imagens/icones/whatsapp.png" alt="icone whatsapp">
+                        </a>
+                    </div>
+                    
+                    <div>
+                        <a href="mailto:bryanfernandes8@gmail.com" target="_blank">
+                            <img src="./imagens/icones/email.png" alt="icone email">
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+      
+        <!-- <hr size="1" color="white"> -->
+      
+        <section id="minhas-habilidades">
+            <h1>Minhas Habilidades</h1>
+
+            <div>
+
+                <div>
+                    <h2>Frontend</h2>
+                    <div class="hard-skills">
+                        <div>
+                            <h6>HTML</h6>
+                            <p>intermediário</p>
+                        </div>
+                        <div>
+                            <h6>CSS</h6>
+                            <p>intermediário</p>
+                        </div>
+                        <div>
+                            <h6>Javascript</h6>
+                            <p>intermediário</p>
+                        </div>
+                       
+                        <div>
+                            <h6>React</h6>
+                            <p>Iniciante</p>
+                        </div>
+
+                    </div>
+                </div>
+    
+                <div>
+
+                    <h2>Backend</h2>
+                    <div class="hard-skills">
+                        <div>
+                            <h6>Node.js</h6>
+                            <p>Iniciante</p>
+                        </div>
+
+                        <div>
+                            <h6>Python</h6>
+                            <p>Iniciante</p>
+                        </div>
+                        
+                        <div>
+                            <h6>Typescript</h6>
+                            <p>Iniciante</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+        <section id="entre-em-contato">
+
+            <div id="form-contato">
+                <form action="">
+                    <h6>Entre em Contato</h6>
+                    <!-- <hr size="5" color="#4DB5FC" width="50%"> -->
+                    <input type="text" onfocus="this.value = '';" class="input-contato" value="Nome">
+                    <input type="text" onfocus="this.value = '';" class="input-contato" value="Email">
+                    <input type="text" onfocus="this.value = '';" class="input-contato" value="Telefone ou whatsapp">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea class="input-contato" id="mensagem"></textarea>
+                </form>
+            </div>
+            
+            <div id="botoes-entre-em-contato">
+                <button class="botao-contato">
+                        <a href="mailto:bryanfernandes8@gmail.com">
+                        <img src="./imagens/icones/email.png" alt="icone email">
+                        <p>Bryanfernandes8@gmail.com</p>
+                        <h6>Clique e mande um email</h6>
+                    </a>
+                    </button>
+                    <button class="botao-contato">
+                        <a href="https://api.whatsapp.com/send?phone=5584996495206&text=Ol%C3%A1%20Bryan..." target="_blank">
+                        <img src="./imagens/icones/whatsapp.png" alt="icone email">
+                        <p>+55 84 996425206</p>
+                        <h6>Clique e escreva uma mensagem</h6>
+                    </a>
+                    </button>         
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <nav>
+            <a href="#apresentacao">Sobre mim</a>
+            <a href="#minhas-habilidades">Minhas Habilidades</a>
+            <a href="#entre-em-contato">Entre em Contato</a>
+        </nav>
+    </footer>
 </body>
 </html>
+
+<!-- #4DB5FC -->
+<!-- #1D1C37 -->
